@@ -1,0 +1,123 @@
+/*@import url("https://fonts.google.com/specimen/Kumbh+Sans");*/
+
+body{
+	background-color: #00B6C7;
+}
+.card-component .container {
+	width: 1265px;
+    max-width: 100%;
+    margin: 25px auto 25px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	
+}
+
+.card-component .container .bg-image-top,
+.card-component .container .bg-image-bottom {
+	position: absolute;
+	z-index: -1;
+}
+
+
+
+.card-component .container .bg-image-top{
+	width: 500px;
+	height: auto;
+	top:-237px;
+	left:3px;
+
+}
+.card-component .container .bg-image-top img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+}
+.card-component .container .card{
+	width: 350px;
+	background-color: white;
+	/*background-image: url('bg-pattern-card.svg');*/
+	/*background-size: 420px;*/
+	background-position: center;
+	display: inline-block;
+	border-radius: 20px;
+	overflow: hidden;
+	text-align: center;
+	position:relative;
+	
+}
+.card-component .container .card img{
+        
+		max-width: 100%;
+        max-height: 100%;
+        display: block;
+		border: 30px;		
+}
+.card-component .container .card .card-body{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+		
+}
+.card-component .container .card .card-body .profile-data{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+		padding: 0 20px 30px;
+}
+.card-component .container .card .card-body .profile-data .profile-pic {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border: 5px solid white;
+		overflow: hidden;
+		margin: -50px auto 30px auto;
+}
+.card-component .container .card .card-body .profile-data .profile-pic img {
+		width: 100%;
+		/*border-radius: 50%;*/
+		height: auto;
+		display: block;
+}
+@font-face {
+  font-family: Kumbh Sans;
+  src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+}
+h3 {
+	font-family: Kumbh Sans;
+	font-weight: bold;
+}
+.age,.location,.meta {
+	font-weight: 400;
+	font-family: Kumbh Sans;
+	color: hsl(0, 0%, 40%);
+	opacity: .8;
+}
+hr{
+	opacity: .2;
+}
+.card-component .container .card .card-body .profile-stats{
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+		padding: 0 20px 30px;
+		justify-content: center;
+		align-items: center;
+		position: relative		
+}
+.card-component .container .card .card-body .profile-stats .col{
+	flex: 1;
+}
+
+.card-component .container .bg-image-bottom{
+	width: 500px;
+	height: auto;
+	bottom:-239px;
+	right: 19px;
+}
+.card-component .container .bg-image-bottom img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+}
